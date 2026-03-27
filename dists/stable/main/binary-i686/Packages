@@ -126,6 +126,21 @@ SHA512: a97bdad1664a2566d1cfedec5efe6cad7f382962a0881501cfaf8b3399d175c84c152dff
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.se/docs/caextract.html
 
+Package: command-not-found
+Installed-Size: 96
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Architecture: i686
+Version: 3.4.1-2
+Depends: libc++
+Filename: pool/main/c/command-not-found/command-not-found_3.4.1-2_i686.deb
+Size: 20356
+MD5sum: c0299bcede33acd8f72c7c5695ea0fe9
+SHA1: cc49d983f219287e73465977a8f368dcafa55b9b
+SHA256: cb7735f4ae1fa8051c659303ef8bf8d793263fe598257211d6db5f7d12b353ee
+SHA512: 3e34c676b2d674f6f50585e0592335fe4f96ce15a64e240f4e87f973da17e04c5dfe1ae24956ac9d1ab184dda7993c33e7ae5450020360faa5a0aa9890a1da3c
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: https://github.com/termux/command-not-found
+
 Package: coreutils
 Essential: yes
 Installed-Size: 2740
