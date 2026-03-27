@@ -537,6 +537,21 @@ SHA512: 779dfd065aede124b33461185c7525c78bf0aece42c2fa6796b1c5197e290e7875ed2d32
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 Homepage: https://www.gnupg.org/
 
+Package: gnutls
+Installed-Size: 904
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.8.11
+Depends: libgnutls (= 3.8.11)
+Filename: pool/main/g/gnutls/gnutls_3.8.11_aarch64.deb
+Size: 175996
+MD5sum: 24c93ba28f9601fbf962cf3afdaa5c97
+SHA1: bef3560a52e90817248663541ec9bd38c8d545ad
+SHA256: d7afe7849ea13c4a0175780b67e08803f87877a67427d73a14c89686b76b9bb8
+SHA512: 7b3cb0fcd9f56295def08703564f52d5156cd40bd22acca0ce5dc3f3c6629859dcd414756648bdf3cbd602c0228a962ba09c663c4d72d6038044619e3a1a4d3f
+Description: Commandline utilities for interfacing with the gnutls library
+Homepage: https://www.gnutls.org/
+
 Package: gpgv
 Installed-Size: 508
 Maintainer: @termux
@@ -1083,6 +1098,38 @@ SHA256: a3f4f7b55a175386d90cb853d39a6386633189f727f2890eec28b7092f6bf913
 SHA512: 545336ada7ea5093b398ee5c0c585e13a7167a960f9e7fab55da43c8e62ad34cc6c1e75c156ad59e0de0ffb5023cdafb3f77f5b03dc31e86c492fc7093a61b95
 Description: Static libraries for libgmp
 Homepage: https://gmplib.org/
+
+Package: libgnutls
+Installed-Size: 2388
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.8.11
+Replaces: libgnutls-dev
+Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring, zlib
+Breaks: libgnutls-dev
+Filename: pool/main/libg/libgnutls/libgnutls_3.8.11_aarch64.deb
+Size: 728820
+MD5sum: 0cb85b7a1729c7cc9331e24128c4cde8
+SHA1: b2a96a2b5104433aaca1ad637a133b84d59c6dfa
+SHA256: c9c7e33e4b822af138068278e19c8518b375ff9df9f8a6517a3a819cfe75fd0e
+SHA512: 1991da2cc6c6f4def8883f4c4494a29fd07fee3758733afad37245e008f809d3bf3175777af0abc019eb18ef6e671b196508097406ffa5660ac783596b532c82
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Homepage: https://www.gnutls.org/
+
+Package: libgnutls-static
+Installed-Size: 3620
+Maintainer: @termux
+Architecture: aarch64
+Version: 3.8.11
+Depends: libgnutls (= 3.8.11)
+Filename: pool/main/libg/libgnutls-static/libgnutls-static_3.8.11_aarch64.deb
+Size: 784388
+MD5sum: 55796e7e2a0d2ffc8b288bb8f75a8878
+SHA1: d220f6d4ee73ecc8d92e03a2606f6a66d856ce50
+SHA256: 3166944fc9d8a6643867249276472147c7ffb239a51a8be44f850838096ab848
+SHA512: 132d22aa92213c5b8c9ccdb555a823e436d7e8369383b65c5314242a35b431f18d3c9014cd7168df41427aa32b00bc7bb4648e07ca456d2b86eb0ec86ece0629
+Description: Static libraries for libgnutls
+Homepage: https://www.gnutls.org/
 
 Package: libgpg-error
 Installed-Size: 604
