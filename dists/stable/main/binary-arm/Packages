@@ -2184,6 +2184,21 @@ SHA512: 26003def1e3d75893966a5c90cea74f35996fa4a72296c67b724cb6511ff82b7f381c3cc
 Description: Some small useful utilities that use the proc filesystem
 Homepage: https://gitlab.com/psmisc/psmisc
 
+Package: pzstd
+Installed-Size: 96
+Maintainer: @termux
+Architecture: arm
+Version: 1.5.7-1
+Depends: libc++, zstd (= 1.5.7-1)
+Filename: pool/main/p/pzstd/pzstd_1.5.7-1_arm.deb
+Size: 30464
+MD5sum: 94cb6f109fcd24ef3e2a6db08faf1910
+SHA1: cf03aa02bb35c9ff72399656dffaf14c67801e33
+SHA256: 0422ac4cb91e2ca536562e7663d490b4983a63e805427638f047a0310b558447
+SHA512: 668235b2831844e98d2f74b9a9363aa63cd99cfeb49f857c6fcf288a5331bf4996eae70696dad3c29730ca971ee63d6d4eed0bb37ffda0b9061ea167e734e792
+Description: A Pigz-like tool for Zstandard
+Homepage: https://github.com/facebook/zstd
+
 Package: readline
 Installed-Size: 1808
 Maintainer: @termux
@@ -2572,4 +2587,21 @@ SHA256: 22053c5eccb0ea14550a1712d74b52efd6a41c176ebd2d3c86c61319c2aac875
 SHA512: c3805483becdaa22d400e2b6c5800655e1dc7dd6ecb5c6304ca3e56dac744922478f030f25ef221c14510b9f1f3ec35d451e7f82b611df0b7167476ee2446def
 Description: Static libraries for zlib
 Homepage: https://www.zlib.net/
+
+Package: zstd
+Installed-Size: 1100
+Maintainer: @termux
+Architecture: arm
+Version: 1.5.7-1
+Replaces: zstd-dev
+Depends: liblzma, zlib
+Breaks: zstd-dev
+Filename: pool/main/z/zstd/zstd_1.5.7-1_arm.deb
+Size: 418496
+MD5sum: d6f02beb518859888d5c6879ea273f6d
+SHA1: b6295aa103dec9f1354bc83c20324cc94d3716f7
+SHA256: 2bdb711e0be200d9b13dcf57d0c62552ddf36e2b3c7c96c1116ddcd3301349c0
+SHA512: 4900c400b44aed86438d1d1d39bec365c5dc0fa08f8d175fe404230df375d69249785b4e6bbe54f033fa8f1825a6bba6edd09e63ac1eafc854b6cdbe3ac07d0d
+Description: Zstandard compression
+Homepage: https://github.com/facebook/zstd
 
