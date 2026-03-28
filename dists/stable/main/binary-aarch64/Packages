@@ -1225,6 +1225,38 @@ SHA512: 156507157952e5ab0477300c17d783c2b3ef0df54c0cddd67a2cb30d2370a6e81a2cf615
 Description: Static libraries for libicu
 Homepage: http://site.icu-project.org/home
 
+Package: libidn2
+Installed-Size: 428
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.3.8-1
+Replaces: libidn2-dev
+Depends: libandroid-support, libiconv, libunistring
+Breaks: libidn2-dev
+Filename: pool/main/libi/libidn2/libidn2_2.3.8-1_aarch64.deb
+Size: 104888
+MD5sum: 8df08af98fc84e2c4fa3ffad2e088b4c
+SHA1: 7416676d74985fb6d4f3bbfb155dcca8042f9787
+SHA256: d0288b26e63efba090803253324748cf088a24a41277ddb5f0095395a2ea69d3
+SHA512: ebf8b4a57295b81fcbf32a8da90321ba42951be23150405f0fdd5416a89f2c25d9c201b9a09181d2edeecb82b55f0597086827d23e0dc2e4b87b90217c043229
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+
+Package: libidn2-static
+Installed-Size: 296
+Maintainer: @termux
+Architecture: aarch64
+Version: 2.3.8-1
+Depends: libidn2 (= 2.3.8-1)
+Filename: pool/main/libi/libidn2-static/libidn2-static_2.3.8-1_aarch64.deb
+Size: 73072
+MD5sum: 1467abb150e4f664140930b54f1fc827
+SHA1: 56f8fd0097985eb304521df2c7fd1b996c41d3be
+SHA256: 3b87f2ff85227f0c8e48f31039d519218ff42e4b9c252089094e494b0f763988
+SHA512: 31f1652f2d54ed586a0debe9ed20d4fb6fb0cc40a2bc74cc8fdbd12562aa78824091a7426d80e65d48bc6153dcfdc5e59d230425300ec99dc25518c1c6319053
+Description: Static libraries for libidn2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+
 Package: libksba
 Installed-Size: 404
 Maintainer: @termux
@@ -1691,6 +1723,38 @@ SHA256: 1b755c9991086348797347da878ef217c8d2955e1cc4edc177742308c318c8e8
 SHA512: cf46832c84e9d42450840a0d324f075662279563d9844ecc303265669a9fda93e4d26a89d4fd4496c58793f59292326ee0ae183f24b091b3617978a0acba30c7
 Description: Static libraries for libtirpc
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+
+Package: libunbound
+Installed-Size: 1248
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.24.2-2
+Replaces: unbound (<< 1.17.1-1)
+Depends: libevent, libnghttp2, libngtcp2, openssl, resolv-conf
+Breaks: unbound (<< 1.17.1-1)
+Filename: pool/main/libu/libunbound/libunbound_1.24.2-2_aarch64.deb
+Size: 381004
+MD5sum: 1cb8728e502039d656206af54db4e8f8
+SHA1: 068a822e29eaf3483f0fd541f939c61e0d5a9ad0
+SHA256: 17af48ca0fe84ba116dca03ed48728a2c0c388f6f01b6bd6a7fb87a34137db29
+SHA512: 3d98cfb46a7edeb48af684c07e2cccdc65ba01df456debb8c25cb806e7f7600b19b9333955e8edd5d3d8f2baecea32563df4bd96c9a5a1359109dc2f5f5ccc22
+Description: A validating, recursive, caching DNS resolver
+Homepage: https://unbound.net/
+
+Package: libunbound-static
+Installed-Size: 2060
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.24.2-2
+Depends: libunbound (= 1.24.2-2)
+Filename: pool/main/libu/libunbound-static/libunbound-static_1.24.2-2_aarch64.deb
+Size: 457660
+MD5sum: a3d03fbb217552b8ac113bb0bf15d8be
+SHA1: b686a9f3f0c6eeac2e60e7911156355f908dfaa9
+SHA256: 5ff90d845365224c7b4f23bdd440c835ab4f4e0d021876455bf26bc7a17245ef
+SHA512: 52ca10740d1cbc3ecc14da4d1dbf9371d8267d94d824617bca94c82a838c2382ded1ca5e14b5bb0bf3de7b3190d24afb1761976aeaa71bb64e41a3a66b94cb6b
+Description: Static libraries for libunbound
+Homepage: https://unbound.net/
 
 Package: libusb
 Installed-Size: 252
@@ -2278,6 +2342,22 @@ SHA512: 4f973e62e4c890857d0df448e9eaec6fb3fd7abd6e4a041c6e96fdb016659847893bd2eb
 Description: Some small useful utilities that use the proc filesystem
 Homepage: https://gitlab.com/psmisc/psmisc
 
+Package: pyunbound
+Installed-Size: 24
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.24.2-2
+Depends: python, libunbound (= 1.24.2-2)
+Conflicts: unbound (<< 1.15.0-1)
+Filename: pool/main/p/pyunbound/pyunbound_1.24.2-2_aarch64.deb
+Size: 788
+MD5sum: 73f1d90e95545c043694041c8d138a26
+SHA1: 3876b67b02e98a9e439e09578f35985a298a6f5c
+SHA256: 4d157859650580e22fbcb56c78bceb8909ef8e1a487f1b6423b0a5015c80bde8
+SHA512: 497c2d0b15e8b507d699ac7c549d6b37f17afd1c2837d9a97ed57ac90565048a001a347658ac9308b914a0d359506bf9a32168184900afa5f9674d8eafc86c7a
+Description: Python bindings for Unbound
+Homepage: https://unbound.net/
+
 Package: pzstd
 Installed-Size: 152
 Maintainer: @termux
@@ -2527,6 +2607,21 @@ SHA256: e29e194d88fe40e0654abd1d652526a657c2c2aeb694107b0afe48aec45d170a
 SHA512: c2764a2a946fd864e186425d1c90bf7b9a49727a2012f1dbdd36cb552e0587bcafbf08923bd104f8bf5dd0cd75186b0c79aa217b2d04172425cead5fe5671d9d
 Description: The Onion Router anonymizing overlay network
 Homepage: https://www.torproject.org
+
+Package: unbound
+Installed-Size: 3460
+Maintainer: @termux
+Architecture: aarch64
+Version: 1.24.2-2
+Depends: libexpat, libunbound (= 1.24.2-2)
+Filename: pool/main/u/unbound/unbound_1.24.2-2_aarch64.deb
+Size: 639352
+MD5sum: 41a9b01c8fb9bb3d7e31fe74445e45aa
+SHA1: de3cd838274f518f2ec8502094bdbe14d8b289cb
+SHA256: 0c38ad1f284df4c655812e5896abc02170ee94ad05b45a66c655c4b21d6f48db
+SHA512: e0491e50acfe67ee29540ed744110270d122b78a832764347dcf3cafa10919cc1a245ad6e2e137e5bbd431796e9b9c885673f3a152ef4b748916ef0239525b1b
+Description: Unbound command-line tools
+Homepage: https://unbound.net/
 
 Package: unzip
 Installed-Size: 324
