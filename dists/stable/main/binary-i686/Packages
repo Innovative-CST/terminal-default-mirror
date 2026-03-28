@@ -1414,6 +1414,38 @@ SHA512: 91f590ee24a49ca48cd3a107cb04fd382bbc8382cc61119d069ca01b9d3cd639e47d9c93
 Description: Static libraries for libmpfr
 Homepage: https://www.mpfr.org/
 
+Package: libnettle
+Installed-Size: 1388
+Maintainer: @termux
+Architecture: i686
+Version: 4.0+really3.10.2
+Replaces: libnettle-dev
+Depends: libgmp
+Breaks: libnettle-dev
+Filename: pool/main/libn/libnettle/libnettle_4.0+really3.10.2_i686.deb
+Size: 402248
+MD5sum: 5e965730ecbb5bee50c4d99c85c1307c
+SHA1: e8606ac6dd14035a7f6c037de1c0fb329b0ee7f1
+SHA256: 178712a92a64ea109f96d9180a1d02338803118dd8e2fd5bd1ed07c38914761c
+SHA512: 0f7a2d339bfbaf2d93d0ff7d30f9b4665f22442dc6eae2c1145480350da899bb47e61f089a04def914be7daaafca651fe82fe82af312bf8c9fdcdf6f874a987b
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+
+Package: libnettle-static
+Installed-Size: 2544
+Maintainer: @termux
+Architecture: i686
+Version: 4.0+really3.10.2
+Depends: libnettle (= 4.0+really3.10.2)
+Filename: pool/main/libn/libnettle-static/libnettle-static_4.0+really3.10.2_i686.deb
+Size: 613736
+MD5sum: a373d97ea928c44fe98297a809353768
+SHA1: 7f78f8ae9c7e5fa8b068ab4eae09a4a177167d1a
+SHA256: 0317a9859bb7d03b977e246c141935799288b182271e0ac5b406ff946e2b1a9b
+SHA512: 11fe278d4933d89bff7794a57ac3e3e7bd3af948e6c4b28bfb577880dc464b7d6b33c276f9603d54071558bc4f1b7de8db7fc53ea81d862ac928440d20ff0483
+Description: Static libraries for libnettle
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+
 Package: libnghttp2
 Installed-Size: 520
 Maintainer: @termux
@@ -2042,6 +2074,21 @@ SHA256: cb701df1c0a46102dc03cf93d0ce1122c1ebd0418602d250bbf0256d8c90d660
 SHA512: d5336661f9d92794d6a91e55301262ec4a471bd4cdd67cffb719e0a32d1197581ac9d90d887f0912ba2246ec5760cabf8f540031caf548af204eddcdc5b70f5a
 Description: Configuration tools for Linux networking
 Homepage: http://net-tools.sourceforge.net/
+
+Package: nettle
+Installed-Size: 100
+Maintainer: @termux
+Architecture: i686
+Version: 4.0+really3.10.2
+Depends: libnettle (= 4.0+really3.10.2)
+Filename: pool/main/n/nettle/nettle_4.0+really3.10.2_i686.deb
+Size: 18624
+MD5sum: 6319c7d06727a27d1e0483ebf89a5743
+SHA1: c7345a97b62f9a9025a924eb0816913e542bf71f
+SHA256: 83a90ce545603607b796d2492ec1cbbd3dca83aafd5208785b3ce38eb02c5d07
+SHA512: ba33c63279846985dded9325cbc62bcf8f3fbdfc0b3f9afe609dd5fdef05fa4f2528e9c42f33f82061033d763cba458a5e14035cc4a6a4af828777bf5d978705
+Description: Low level cryptographic tools
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
 
 Package: openssl
 Installed-Size: 7544
