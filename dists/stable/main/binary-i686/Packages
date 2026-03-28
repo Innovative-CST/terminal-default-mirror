@@ -1756,6 +1756,38 @@ SHA512: f3ca44b78cc9c19f2100e9a04d80a6fe17dc75c81684d71b2a867a5232151ac1b6d5f164
 Description: Static libraries for libunbound
 Homepage: https://unbound.net/
 
+Package: libunistring
+Installed-Size: 3180
+Maintainer: @termux
+Architecture: i686
+Version: 1.3-1
+Replaces: libunistring-dev
+Depends: libandroid-support, libiconv
+Breaks: libunistring-dev
+Filename: pool/main/libu/libunistring/libunistring_1.3-1_i686.deb
+Size: 569748
+MD5sum: 5a14141bb375d02c3dec015322358f7a
+SHA1: 04f45cd5ea90d79d67405dadd68a8cda63602a87
+SHA256: fff2c6a694ba1522981f16ed5cc133c2ef66e1472df7e084a7095e5754cec6a1
+SHA512: dc992fbe40abc1e40564e53a024d1674cd443e8afff3ee304097a2035a174fbfe8622ab2a796ca1d03801238507f6c658d5cbf5a501d037ee988a9a5823849a2
+Description: Library providing functions for manipulating Unicode strings
+Homepage: https://www.gnu.org/software/libunistring/
+
+Package: libunistring-static
+Installed-Size: 2636
+Maintainer: @termux
+Architecture: i686
+Version: 1.3-1
+Depends: libunistring (= 1.3-1)
+Filename: pool/main/libu/libunistring-static/libunistring-static_1.3-1_i686.deb
+Size: 466216
+MD5sum: bbc1a77cdddad93b9148d9254b9c1e10
+SHA1: 0c5f13d3e0694492f941a35febc47e35020cda23
+SHA256: 8b476b8db573d49730e6eb9d45dac1b2c759e539175593c8b49d834adde7bff8
+SHA512: bcb0d7c939d0981d8bdb1e134babec4f976b03ad0d262ddd4badb7538f55aacf3996df481bcc11afe67d244e249cef0d50e2843d835130f498990ff53db950d0
+Description: Static libraries for libunistring
+Homepage: https://www.gnu.org/software/libunistring/
+
 Package: libusb
 Installed-Size: 244
 Maintainer: @termux
