@@ -1020,6 +1020,22 @@ SHA512: 8c197d7d778057bfa37dbb79afcf365a4e8716ce12483535c50657ed6c9dbc582dad5781
 Description: Static libraries for libedit
 Homepage: https://thrysoee.dk/editline/
 
+Package: libevent
+Installed-Size: 940
+Maintainer: @termux
+Architecture: arm
+Version: 2.1.12-3
+Replaces: libevent-dev
+Breaks: libevent-dev
+Filename: pool/main/libe/libevent/libevent_2.1.12-3_arm.deb
+Size: 189292
+MD5sum: d7fb57dd46573330b0b19804848e85c7
+SHA1: 1d81ee9558ad6d027b3dde1151670931f5abf6b3
+SHA256: ec477efd758064b7d06e1816b8d848da933728ba7ae322a3e831817dff04ffec
+SHA512: 54df1cc45361adc267cf45aa1e6a2b04ecf594466ca807b22ca780e4ccd5cf5722dcbd4bc7b18da9f1d16fbdc3958fff0372a495596dd9d250f03d5293080900
+Description: Library that provides asynchronous event notification
+Homepage: https://libevent.org/
+
 Package: libfdisk
 Installed-Size: 380
 Maintainer: @termux
@@ -2436,6 +2452,20 @@ SHA256: 7f4667a632ecbb9d92dd271ab7b12763945a58e85ef9190966381775a40ad62e
 SHA512: 83e599bee2b9dbcf0b3c137085ff4daf141d9afa9345d4e1f4c2522cb35b140fbeb6d0f092c33c9c698e05cde2329682ac9100c91551a8bc9e3abd9fe4584454
 Description: Static libraries for readline
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+
+Package: resolv-conf
+Installed-Size: 48
+Maintainer: @termux
+Architecture: arm
+Version: 1.3
+Filename: pool/main/r/resolv-conf/resolv-conf_1.3_arm.deb
+Size: 1008
+MD5sum: 1194dfd122e1e07ef783b4e39323e2ea
+SHA1: 5bbe57972fddec45507382dacf36d10ebf20ddf7
+SHA256: 5815f2babe5df900ff3ebf67daf4119db00e8e3dfe757f157bd77205e02d7610
+SHA512: f871615d230da264b53b054626a85d65908815e65d4dcc587953078fbc68d0e790206dbb6dd02dbec8058ea85443b52b2ae84825a331eeff8fdd6c5ace9ae85e
+Description: Resolver configuration file
+Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 
 Package: scdaemon
 Installed-Size: 364
